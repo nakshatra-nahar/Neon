@@ -1,0 +1,12 @@
+{
+  "$schema": "../../../schemas/skill-schemas/skill.json",
+  "name": "Partner Assistant",
+  "bridge": null,
+  "version": "1.0.0",
+  "description": "neon tells about other virtual assistants.",
+  "author": {
+    "name": "Louis Grenard",
+    "email": "louis@getneon.ai",
+    "url": "https://github.com/louistiti"
+  }
+}

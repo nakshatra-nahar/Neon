@@ -1,0 +1,12 @@
+{
+  "$schema": "../../../schemas/skill-schemas/skill.json",
+  "name": "Welcome",
+  "bridge": null,
+  "version": "1.0.0",
+  "description": "neon welcomes you.",
+  "author": {
+    "name": "Louis Grenard",
+    "email": "louis@getneon.ai",
+    "url": "https://github.com/louistiti"
+  }
+}

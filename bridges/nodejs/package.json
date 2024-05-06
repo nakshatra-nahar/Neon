@@ -1,0 +1,22 @@
+{
+  "name": "neon-nodejs-bridge",
+  "description": "neon's Node.js bridge to communicate between the core and skills made with JavaScript",
+  "main": "dist/bin/neon-nodejs-bridge.js",
+  "author": {
+    "name": "Louis Grenard",
+    "email": "louis@getneon.ai",
+    "url": "https://twitter.com/grenlouis"
+  },
+  "license": "MIT",
+  "homepage": "https://getneon.ai",
+  "bugs": {
+    "url": "https://github.com/neon-ai/neon/issues"
+  },
+  "dependencies": {
+    "axios": "1.4.0",
+    "lodash": "4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "4.14.194"
+  }
+}

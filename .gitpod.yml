@@ -1,0 +1,19 @@
+image: gitpod/workspace-full
+
+tasks:
+  - before: npm install -g @neon-ai/cli
+    init: neon create birth
+    command: neon start
+
+ports:
+  - port: 1337
+    onOpen: notify
+
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: true
+    addComment: true
+    addBadge: true
+    addLabel: true
